@@ -22,14 +22,15 @@
 
 <section class="header">
 
-   <a href="home.php" class="logo">travel.</a>
+   <a href="home.php" class="logo">HamzaFly.</a>
 
    <nav class="navbar">
       <a href="home.php">home</a>
       <a href="about.php">about</a>
       <a href="package.php">package</a>
       <a href="book.php">Trip book</a>
-      <a href="book.php">Flight Ticket</a>
+      <a href="map.php">Map</a>
+      <a href="..//index.php">Flight Ticket</a>
 
 
    </nav>
@@ -48,7 +49,7 @@
 
       <div class="swiper-wrapper">
 
-         <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/4.jpg) no-repeat">
             <div class="content">
                <span>explore, discover, travel</span>
                <h3>travel arround the world</h3>
@@ -56,7 +57,7 @@
             </div>
          </div>
 
-         <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/2.jpg) no-repeat">
             <div class="content">
                <span>explore, discover, travel</span>
                <h3>discover the new places</h3>
@@ -64,7 +65,7 @@
             </div>
          </div>
 
-         <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+         <div class="swiper-slide slide" style="background:url(images/5.jpeg) no-repeat">
             <div class="content">
                <span>explore, discover, travel</span>
                <h3>make your tour worthwhile</h3>
@@ -132,7 +133,7 @@
 <section class="home-about">
 
    <div class="image">
-      <img src="images/about-img.jpg" alt="">
+      <img src="images/IMG_0954.jpg" alt="">
    </div>
 
    <div class="content">
@@ -155,7 +156,7 @@
 
       <div class="box">
          <div class="image">
-            <img src="images/img-1.jpg" alt="">
+            <img src="images/IMG_4382.jpg" alt="">
          </div>
          <div class="content">
             <h3>adventure & tour</h3>
@@ -166,7 +167,7 @@
 
       <div class="box">
          <div class="image">
-            <img src="images/img-2.jpg" alt="">
+            <img src="images/IMG_6041.jpg" alt="">
          </div>
          <div class="content">
             <h3>adventure & tour</h3>
@@ -177,7 +178,7 @@
       
       <div class="box">
          <div class="image">
-            <img src="images/img-3.jpg" alt="">
+            <img src="images/IMG_3832.jpg" alt="">
          </div>
          <div class="content">
             <h3>adventure & tour</h3>

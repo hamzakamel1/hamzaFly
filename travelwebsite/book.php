@@ -22,13 +22,16 @@
 
 <section class="header">
 
-   <a href="home.php" class="logo">travel.</a>
+   <a href="home.php" class="logo">HamzaFly.</a>
 
    <nav class="navbar">
       <a href="home.php">home</a>
       <a href="about.php">about</a>
       <a href="package.php">package</a>
       <a href="book.php">book</a>
+      <a href="map.php">Map</a>
+      <a href="..//index.php">Flight Ticket</a>
+
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -37,7 +40,7 @@
 
 <!-- header section ends -->
 
-<div class="heading" style="background:url(images/header-bg-3.png) no-repeat">
+<div class="heading" style="background:url(images/pexels-aleksandar-pasaric-1619569.jpg) no-repeat">
    <h1>book now</h1>
 </div>
 

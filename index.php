@@ -12,11 +12,15 @@
 			$_SESSION['setting_'.$key] = $value;
 	}
     ob_end_flush();
+    $_SESSION["setting_cover_img"] = "assets/img/pexels-aleksandar-pasaric-1619569.jpg";
+    $_SESSION["setting_name"] = "HamzaFly.";
+
+
     ?>
 
     <style>
     	header.masthead {
-		  background: url(assets/img/<?php echo $_SESSION['setting_cover_img'] ?>);
+		  background: url(<?php echo $_SESSION['setting_cover_img'] ?>);
 		  background-repeat: no-repeat;
 		  background-size: cover;
 		}
@@ -35,8 +39,10 @@
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=flights"></span>Flight List</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/home.php">Booking trip</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/map.php">Maps</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">About</a></li>
-                        
+
                      
                     </ul>
                 </div>
