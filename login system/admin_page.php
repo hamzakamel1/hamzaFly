@@ -20,9 +20,29 @@ if(!isset($_SESSION['admin_name'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="..//travelwebsite/css/style.css">
+
 
 </head>
 <body>
+<section class="header">
+
+<a href="..//travelwebsite/home.php" class="logo">HamzaFly.</a>
+
+<nav class="navbar">
+   <a href="home.php">home</a>
+   <a href="..//index.php">Flight Ticket</a>
+   <a href="book.php">Trip Booking</a>
+   <a href="map.php">Map</a>
+   <a href="..//login system/admin_page.php">package</a>
+   <a href="about.php">about</a>
+   <a href="login_form.php">LogIn/SignUp</a>
+
+</nav>
+
+<div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
    
 <div class="container">
 

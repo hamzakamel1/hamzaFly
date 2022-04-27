@@ -43,7 +43,9 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/map.php">Maps</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/package.php">package</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/about.php">About</a></li>
-                        
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/about.php">LogIn/SignUp</a></li>
+                        <a href="..//login system/login_form.php">LogIn/SignUp</a>
+
                         
                     </ul>
                 </div>

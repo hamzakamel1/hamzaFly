@@ -28,8 +28,10 @@
       <a href="..//index.php">Flight Ticket</a>
       <a href="book.php">Trip Booking</a>
       <a href="map.php">Map</a>
-      <a href="..//login system/admin_page.php">package</a>
+      <a href="package.php">package</a>
       <a href="about.php">about</a>
+      <a href="..//login system/login_form.php">LogIn/SignUp</a>
+
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
