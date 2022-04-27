@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 :root{
-   --main-color:#8e44ad;
+   --main-color:#3ecc1b;
    --black:#222;
    --white:#fff;
    --light-black:#777;
@@ -78,7 +78,7 @@ section{
 }
 
 .btn:hover{
-   background: var(--main-color);
+   background: var( --main-color);
 }
 
 .heading-title{
@@ -550,7 +550,7 @@ section{
 
 
 .footer{
-   background: url("..//images/pexels-aleksandar-pasaric-1619569.jpg") no-repeat;
+   background: url(../images/footer-bg.jpg) no-repeat;
    background-size: cover;
    background-position: center;
 }
@@ -686,3 +686,5 @@ section{
    }
 
 }
+
+

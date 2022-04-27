@@ -26,13 +26,11 @@
 
    <nav class="navbar">
       <a href="home.php">home</a>
-      <a href="about.php">about</a>
-      <a href="package.php">package</a>
-      <a href="book.php">Trip book</a>
-      <a href="map.php">Map</a>
       <a href="..//index.php">Flight Ticket</a>
-
-
+      <a href="book.php">Trip Booking</a>
+      <a href="map.php">Map</a>
+      <a href="..//login system/admin_page.php">package</a>
+      <a href="about.php">about</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -53,7 +51,7 @@
             <div class="content">
                <span>explore, discover, travel</span>
                <h3>travel arround the world</h3>
-               <a href="package.php" class="btn">discover more</a>
+               <a href="package.php" class="btn" >discover more</a>
             </div>
          </div>
 
@@ -92,36 +90,34 @@
 
    <div class="box-container">
 
-      <div class="box">
+      <div class="box" >
+         <a href = "https://butterandeggadventures.com/">
          <img src="images/icon-1.png" alt="">
          <h3>adventure</h3>
+         </a>
       </div>
 
       <div class="box">
+         <a href= "https://visitidaho.org/explore-idaho/maps-and-publications/?gclid=Cj0KCQjwgYSTBhDKARIsAB8KukvK_Pg0p8PSPO-6qwLei011GRYKa7_hADbdl6llyZNn_w-rfPeLlMsaAtFgEALw_wcB">
          <img src="images/icon-2.png" alt="">
          <h3>tour guide</h3>
+         </a>
       </div>
 
       <div class="box">
-         <img src="images/icon-3.png" alt="">
-         <h3>trekking</h3>
+         <a href = "..//index.php"> 
+         <img src="images/airplane.png" alt="">
+         <h3>Flight Booking</h3></a>
       </div>
 
-      <div class="box">
-         <img src="images/icon-4.png" alt="">
-         <h3>camp fire</h3>
-      </div>
 
-      <div class="box">
-         <img src="images/icon-5.png" alt="">
-         <h3>off road</h3>
+      <div class="box" >
+         <a href= "map.php">
+         <img src="images/bus.png" alt="">
+         <h3>Transportation</h3>
+         </a>
       </div>
-
-      <div class="box">
-         <img src="images/icon-6.png" alt="">
-         <h3>camping</h3>
-      </div>
-
+      
    </div>
 
 </section>
@@ -211,21 +207,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- footer section starts  -->
 
-<section class="footer">
+<section class="footer" style="background:url(images/pexels-aleksandar-pasaric-1619569.jpg) no-repeat" >
 
    <div class="box-container">
 
@@ -249,8 +233,7 @@
          <h3>contact info</h3>
          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
          <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-         <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-         <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> Hamzakamel.a@gmail.com </a>
       </div>
 
       <div class="box">
@@ -263,7 +246,6 @@
 
    </div>
 
-   <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
 
 </section>
 

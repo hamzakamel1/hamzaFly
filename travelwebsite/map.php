@@ -18,6 +18,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <script  src="https://kit.fontawesome.com/ab2155e76b.js" crossorigin="anonymous"></script>
    <link href="https://fonts.googleapis.com/css2?family=poppins&display=swap" rel="stylesheet">
+   <link href="style.css" rel="stylesheet"/>
 </head>
 
 
@@ -28,14 +29,14 @@
 <section class="header">
 
    <a href="home.php" class="logo">HamzaFly.</a>
-
    <nav class="navbar">
-      <a href="home.php">home</a>
-      <a href="about.php">about</a>
-      <a href="package.php">package</a>
-      <a href="book.php">book</a>
-      <a href="map.php">Map</a>
+   <a href="home.php">home</a>
       <a href="..//index.php">Flight Ticket</a>
+      <a href="book.php">Trip Booking</a>
+      <a href="map.php">Map</a>
+      <a href="..//login system/admin_page.php">package</a>
+      <a href="about.php">about</a>
+
 
    </nav>
 
@@ -107,7 +108,7 @@
 
    <div class="box-container">
 
-      <div class="box">
+   <div class="box">
          <h3>quick links</h3>
          <a href="home.php"> <i class="fas fa-angle-right"></i> home</a>
          <a href="about.php"> <i class="fas fa-angle-right"></i> about</a>
@@ -127,8 +128,7 @@
          <h3>contact info</h3>
          <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
          <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
-         <a href="#"> <i class="fas fa-envelope"></i> shaikhanas@gmail.com </a>
-         <a href="#"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> Hamzakamel.a@gmail.com </a>
       </div>
 
       <div class="box">
@@ -141,7 +141,6 @@
 
    </div>
 
-   <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
 
 </section>
 
