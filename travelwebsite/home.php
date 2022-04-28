@@ -30,7 +30,6 @@
       <a href="map.php">Map</a>
       <a href="about.php">about</a>
       <a href="..//login system/login_form.php">LogIn/SignUp</a>
-
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -134,7 +133,7 @@
 
    <div class="content">
       <h3>about us</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
+      <p>our company offers best four services to the users. the transportations service which is provided with the full functions to find your way and bus companies for your destination. And the flight booking option which is provided to easily book your flights if you are not using the transportation tools.</p>
       <a href="about.php" class="btn">read more</a>
    </div>
 
@@ -155,8 +154,8 @@
             <img src="images/IMG_4382.jpg" alt="">
          </div>
          <div class="content">
-            <h3>adventure & tour</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <h3>Statue Of Liberty</h3>
+            <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States.</p>
             <a href="book.php" class="btn">book now</a>
          </div>
       </div>
@@ -166,8 +165,8 @@
             <img src="images/IMG_6041.jpg" alt="">
          </div>
          <div class="content">
-            <h3>adventure & tour</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <h3>Troy University</h3>
+            <p>Troy University is a public university in Troy, Alabama. It was founded in 1887 as Troy State Normal School within the Alabama State University System, and is now the flagship university of the Troy University System.</p>
             <a href="book.php" class="btn">book now</a>
          </div>
       </div>
@@ -177,32 +176,15 @@
             <img src="images/IMG_3832.jpg" alt="">
          </div>
          <div class="content">
-            <h3>adventure & tour</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
+            <h3>Time Square </h3>
+            <p>Times Square is a major commercial intersection, tourist destination, entertainment center, and neighborhood in Midtown Manhattan, New York City</p>
             <a href="book.php" class="btn">book now</a>
          </div>
       </div>
 
    </div>
 
-   <div class="load-more"> <a href="package.php" class="btn">load more</a> </div>
-
 </section>
-
-<!-- home packages section ends -->
-
-<!-- home offer section starts  -->
-
-<section class="home-offer">
-   <div class="content">
-      <h3>upto 50% off</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
-      <a href="book.php" class="btn">book now</a>
-   </div>
-</section>
-
-<!-- home offer section ends -->
-
 
 
 

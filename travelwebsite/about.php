@@ -38,7 +38,7 @@
 
 <!-- header section ends -->
 
-<div class="heading" style="background:url(images/header-bg-1.png) no-repeat">
+<div class="heading" style="background:url(images/pexels-jaime-reimer-2662116.jpg) no-repeat">
    <h1>about us</h1>
 </div>
 
@@ -51,24 +51,10 @@
    </div>
 
    <div class="content">
-      <h3>why choose us?</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure numquam nulla iusto corporis dolor commodi libero, vitae obcaecati optio rerum ab culpa nesciunt, earum mollitia quasi ipsam non. Aliquid, iure.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid rerum, delectus voluptate aliquam quaerat iusto repellendus error nulla ab atque.</p>
-      <div class="icons-container">
-         <div class="icons">
-            <i class="fas fa-map"></i>
-            <span>top destinations</span>
-         </div>
-         <div class="icons">
-            <i class="fas fa-hand-holding-usd"></i>
-            <span>affordable price</span>
-         </div>
-         <div class="icons">
-            <i class="fas fa-headset"></i>
-            <span>24/7 guide service</span>
-         </div>
-      </div>
-   </div>
+      <h3>Why HamzaFly is the best choice?</h3>
+      <p> our company offers best four services to the users. the transportations service which is provided with the full functions to find your way and bus companies for your destination. </p>
+      <p>And the flight booking option which is provided to easily book your flights if you are not using the transportation tools.</p>
+
 
 </section>
 
@@ -78,7 +64,7 @@
 
 <section class="reviews">
 
-   <h1 class="heading-title"> clients reviews </h1>
+   <h1 class="heading-title"> Discover More </h1>
 
    <div class="swiper reviews-slider">
 
@@ -86,16 +72,42 @@
 
          <div class="swiper-slide slide">
             <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
+            <div class="box">
+         <div class="image">
+            <img src="images/img-1.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Empire state building</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-1.png" alt="">
+ 
+         </div>
+
+         <div class="swiper-slide slide">
+
+         <div class="box">
+         <div class="image">
+            <img src="images/img-2.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Pyramids</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
+         </div>
+
+         <div class="swiper-slide slide">
+         <div class="box">
+         <div class="image">
+            <img src="images/img-4.jpg" alt="">
+         </div>
+         <div class="content">
+            <h3>Eiffel Tower</h3>
+            <a href="book.php" class="btn">book now</a>
+         </div>
+      </div>
          </div>
 
          <div class="swiper-slide slide">
@@ -104,34 +116,8 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus repellendus et suscipit optio similique totam aut laborum ullam sequi! In!</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-2.png" alt="">
-         </div>
-
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim deserunt, ab at ea iste odio placeat doloribus eum dolores tempore obcaecati, dolore esse aperiam. Excepturi ad quo distinctio, dignissimos voluptate, dolores, saepe animi eum atque sint esse ab exercitationem!</p>
-            <h3>john deo</h3>
-            <span>traveler</span>
-            <img src="images/pic-3.png" alt="">
-         </div>
-
-         <div class="swiper-slide slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus recusandae cum quibusdam odio dignissimos nemo?</p>
             <h3>john deo</h3>
             <span>traveler</span>
             <img src="images/pic-4.png" alt="">
@@ -143,7 +129,6 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
             <h3>john deo</h3>
             <span>traveler</span>
             <img src="images/pic-5.png" alt="">
@@ -156,7 +141,6 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
             </div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis laudantium magnam saepe magni ullam possimus laborum voluptas, veniam ipsum officiis quae doloribus minima ut quis. Molestiae qui distinctio possimus?</p>
             <h3>john deo</h3>
             <span>traveler</span>
             <img src="images/pic-6.png" alt="">

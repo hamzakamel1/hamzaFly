@@ -35,7 +35,7 @@
       <a href="map.php">Map</a>
       <a href="package.php">package</a>
       <a href="about.php">about</a>
-      <a href="..//login system/login_form.php">LogIn/SignUp</a>
+      <a href="..////login system/login_form.php">LogIn/SignUp</a>
 
 
 
