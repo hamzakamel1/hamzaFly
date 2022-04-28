@@ -35,10 +35,10 @@ if(!isset($_SESSION['admin_name'])){
 <a href="..//travelwebsite/home.php" class="logo">HamzaFly.</a>
 
 <nav class="navbar">
-   <a href="..//travelwebsite/home.php">home</a>
-   <a href="..//indb>Flight Booking</a>
-   <a href="map.php">Map</a>
-   <a href="about.php">about</a>
+<a href="..//travelwebsite/home.php">home</a>
+   <a href="..//index.php">Flight Booking</a>
+   <a href="..//travelwebsite/map.php">Map</a>
+   <a href="..//travelwebsite/about.php">about</a>
    <a href="login_form.php">LogIn/SignUp</a>
 
 </nav>

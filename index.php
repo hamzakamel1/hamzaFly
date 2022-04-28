@@ -41,7 +41,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=flights"></span>Flight Booking</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/map.php">Maps</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="..//login system/login_form.php">LogIn/SignUp</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../login system/login_form.php">LogIn/SignUp</a></li>
 
                     </ul>
                 </div>

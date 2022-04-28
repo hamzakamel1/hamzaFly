@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
    $cpass = md5($_POST['cpassword']);
    $user_type = $_POST['user_type'];
 
-   $select = " SELECT * FROM user_form WHERE email = '$email' && password = '$pass' ";
+   $select = " SELECT * FROM registration_form WHERE email = '$email' && password = '$pass' ";
 
    $result = mysqli_query($conn, $select);
 
@@ -64,10 +64,10 @@ if(isset($_POST['submit'])){
 <a href="..//travelwebsite/home.php" class="logo">HamzaFly.</a>
 
 <nav class="navbar">
-   <a href="home.php">home</a>
+   <a href="..//travelwebsite/home.php">home</a>
    <a href="..//index.php">Flight Booking</a>
-   <a href="map.php">Map</a>
-   <a href="about.php">about</a>
+   <a href="..//travelwebsite/map.php">Map</a>
+   <a href="..//travelwebsite/about.php">about</a>
    <a href="login_form.php">LogIn/SignUp</a>
 
 </nav>

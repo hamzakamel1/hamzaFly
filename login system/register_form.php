@@ -8,11 +8,12 @@ if(isset($_POST['submit'])){
 
    $name = mysqli_real_escape_string($conn, $_POST['name']);
    $email = mysqli_real_escape_string($conn, $_POST['email']);
+   $Billing_address= mysqli_real_escape_string($conn, $_POST['Billing_address']);
    $pass = md5($_POST['password']);
    $cpass = md5($_POST['cpassword']);
    $user_type = $_POST['user_type'];
 
-   $select = " SELECT * FROM user_form WHERE email = '$email' && password = '$pass' ";
+   $select = " SELECT * FROM registration_form WHERE email = '$email' && password = '$pass' ";
 
    $result = mysqli_query($conn, $select);
 
@@ -25,7 +26,7 @@ if(isset($_POST['submit'])){
       if($pass != $cpass){
          $error[] = 'password not matched!';
       }else{
-         $insert = "INSERT INTO user_form(name, email, password, user_type) VALUES('$name','$email','$pass','$user_type')";
+         $insert = "INSERT INTO user_form(name, email, password, Billing_address ,user_type) VALUES('$name','$email','$pass','$user_type')";
          mysqli_query($conn, $insert);
          header('location:login_form.php');
       }
@@ -62,11 +63,11 @@ if(isset($_POST['submit'])){
 <a href="..//travelwebsite/home.php" class="logo">HamzaFly.</a>
 
    <nav class="navbar">
-      <a href="home.php">home</a>
-      <a href="..//index.php">Flight Booking</a>
-      <a href="map.php">Map</a>
-      <a href="about.php">about</a>
-      <a href="login_form.php">LogIn/SignUp</a>
+   <a href="..//travelwebsite/home.php">home</a>
+   <a href="..//index.php">Flight Booking</a>
+   <a href="..//travelwebsite/map.php">Map</a>
+   <a href="..//travelwebsite/about.php">about</a>
+   <a href="login_form.php">LogIn/SignUp</a>
 
    </nav>
 
@@ -88,6 +89,7 @@ if(isset($_POST['submit'])){
       <input type="text" name="name" required placeholder="enter your name">
       <input type="email" name="email" required placeholder="enter your email">
       <input type="password" name="password" required placeholder="enter your password">
+      <input type="billing address" name="billing address" required placeholder="enter your Billing address">
       <input type="password" name="cpassword" required placeholder="confirm your password">
       <select name="user_type">
          <option value="user">user</option>
