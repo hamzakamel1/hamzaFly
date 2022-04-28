@@ -25,10 +25,8 @@
    <a href="home.php" class="logo">HamzaFly.</a>
    <nav class="navbar">
    <a href="home.php">home</a>
-      <a href="..//index.php">Flight Ticket</a>
-      <a href="book.php">Trip Booking</a>
+      <a href="..//index.php">Flight Booking</a>
       <a href="map.php">Map</a>
-      <a href="package.php">package</a>
       <a href="about.php">about</a>
       <a href="..//login system/login_form.php">LogIn/SignUp</a>
 

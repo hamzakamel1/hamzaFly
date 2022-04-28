@@ -38,15 +38,11 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/home.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=flights"></span>Flight List</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/book.php">Trip Booking</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=flights"></span>Flight Booking</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/map.php">Maps</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/package.php">package</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="travelwebsite/about.php">LogIn/SignUp</a></li>
-                        <a href="..//login system/login_form.php">LogIn/SignUp</a>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="..//login system/login_form.php">LogIn/SignUp</a></li>
 
-                        
                     </ul>
                 </div>
             </div>

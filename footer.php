@@ -3,6 +3,8 @@
     width: 80% !important;
     max-width: unset;
   }
+  
+
   .modal-dialog.mid-large {
     width: 50% !important;
     max-width: unset;
